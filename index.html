@@ -13,9 +13,9 @@
 <body>
 
     <!-- START navbar -->
-    <div uk-sticky style="background-color: black;">
+    <div uk-sticky style="background-color: #092e44;">
         <div class="uk-container">
-            <nav class="nav uk-navbar-container" uk-navbar style="background-color: black;">
+            <nav class="nav uk-navbar-container" uk-navbar style="background-color: #092e44;">
                 <!-- START uk-navbar-left -->
                 <div class="uk-navbar-left">
                     <img src="https://xvxlabs.com/preview/wp/roofingmasters/wp-content/uploads/2020/01/logo-1.png">
@@ -139,7 +139,7 @@
             <div class="uk-child-width-1-2 uk-text-center" uk-grid>
                 <!-- START Grid - item_1-->
                 <div class="uk-container">
-                    <div class="uk-card uk-card-default uk-card-body ">
+                    <div class="uk-card uk-card-default uk-card-body">
                         <p style="font-size: large; text-align: left;">Lorem ipsum dolor, sit amet consectetur
                             adipisicing elit. <br>Perspiciatis rem, odit quas dolorem delectus nam modi<br> accusantium
                             impedit iste sunt, laboriosam repellendus iusto. Est veniam nostrum praesentium, ab id
@@ -178,55 +178,63 @@
         </div>
         <!-- END uk-container -->
 
-        <ul class="uk-child-width-1-2" uk-grid>
-            <li>
-                <div class="uk-container uk-card-default uk-card-body" style="width: fit-content; width: 280px;">
-                    <img style=" background-repeat: no-repeat; height: 250px;"
-                        src="https://xvxlabs.com/preview/wp/roofingmasters/wp-content/uploads/2020/01/img1.png">
-                    </img>
-                    <p style="font-size: 30px; text-align: center;"><strong>Repair</strong></p>
-                    <p style="font-size: 20px; padding-left: 20px;">Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit.</p>
+        <!-- START uk-container Main-->
+        <div class="uk-container">
+
+            <!-- START uk-container card-1 -->
+            <div class="uk-container " style="width: fit-content; width: 350px; display: inline-block;">
+                <div>
+                    <img style=" background-repeat: no-repeat; height: 280px; width: 360px;"
+                        src="https://xvxlabs.com/preview/wp/roofingmasters/wp-content/uploads/2020/01/img1.png" />
+
                 </div>
-            </li>
-
-            <li>
-                <div class="uk-container uk-card-default uk-card-body" style="width: fit-content; width: 280px;">
-                    <div
-                        style=" background-repeat: no-repeat; height: 250px; background-image: url(https://xvxlabs.com/preview/wp/roofingmasters/wp-content/uploads/2020/01/img1.png);">
-
-                        <!-- 
-                          <div class="uk-overlay-primary uk-position uk-text-center">
-                            <span uk-icon="plus"></span>
-                        </div>
-                         -->
-                    </div>
-
-                    <p style="font-size: 30px; text-align: center; "><strong>Destroy</strong></p>
-                    <p style="font-size: 20px; padding-left: 20px;">Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit.</p>
+                <div class="uk-text-center">
+                    <p style="font-size: 25px; text-align: center; margin-top: 15px; color: black;">Repair</p>
                 </div>
-            </li>
+                <p style="font-size: 17px; padding-left: 20px; padding-right: 10px;">Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit.</p>
 
-        </ul>
+            </div>
+            <!-- END uk-container card-1 -->
+
+            <!-- START uk-container card-2 -->
+            <div class="uk-container "
+                style="width: fit-content; width: 350px; display: inline-block; margin-left: 35px;">
+                <div>
+                    <img style=" background-repeat: no-repeat; height: 280px; width: 360px;"
+                        src="https://xvxlabs.com/preview/wp/roofingmasters/wp-content/uploads/2020/01/img1.png" />
+
+                </div>
+                <div class="uk-text-center">
+                    <p style="font-size: 25px; text-align: center; margin-top: 15px; color: black;">Destory</p>
+                </div>
+                <p style="font-size: 17px; padding-left: 20px; padding-right: 10px;">Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit.</p>
+
+            </div>
+            <!-- END uk-container card-2 -->
+
+        </div>
+        <!-- END uk-container Main-->
+
     </div>
     <!-- END section-2 -->
 
 
     <!-- START section-3 -->
-    <div class="section uk-container" style="margin-top: 50px; margin-bottom: 50px; background-color: darkblue;">
+    <div class="section" style="margin-top: 50px; margin-bottom: 50px; background-color: #092e44;">
 
         <!-- START uk-container Main-->
         <div class="uk-container">
 
             <!-- START uk-container ( title ) -->
             <div class="uk-container uk-text-center" style="margin-bottom: 40px; margin-top: 40px;">
-                    <h2 style="color: white;">Our Testimonials</h2>
+                <h2 style="color: white;">Our Testimonials</h2>
             </div>
             <!-- END uk-container ( title ) -->
 
             <!-- START Grid-->
-            <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+            <div class="uk-child-width-expand@s uk-text-center" uk-grid style="margin-bottom: 50px;">
 
                 <!-- START Grid - item_1 ( uk-container )-->
                 <div class="uk-container">
@@ -240,7 +248,7 @@
                         <span uk-icon="star" style="color: white;"></span>
                     </div>
                     <!-- END Grid - item_1 item-1 -->
-                    
+
                     <!-- START Grid - item_1 item-2 -->
                     <div>
                         <p style="color: white; font-size: 25px; text-align: center; margin-top: 0px;">
@@ -251,7 +259,7 @@
 
                     <!-- START Grid - item_1 item-3 -->
                     <div>
-                        <p><span uk-icon="minus"></span> bola <span><a href="#">  Google</a></span></p>
+                        <p><span uk-icon="minus"></span> bola <span><a href="#"> Google</a></span></p>
                     </div>
                     <!-- END Grid - item_1 item-3 -->
                 </div>
@@ -269,7 +277,7 @@
                         <span uk-icon="star" style="color: white;"></span>
                     </div>
                     <!-- END Grid - item_2 item-1 -->
-                    
+
                     <!-- START Grid - item_2 item-2 -->
                     <div>
                         <p style="color: white; font-size: 25px; text-align: center;">
@@ -280,7 +288,7 @@
 
                     <!-- START Grid - item_2 item-3 -->
                     <div>
-                        <p><span uk-icon="minus"></span> Rowis <span><a href="#">  Youtube</a></span></p>
+                        <p><span uk-icon="minus"></span> Rowis <span><a href="#"> Youtube</a></span></p>
                     </div>
                     <!-- END Grid - item_2 item-3 -->
                 </div>
@@ -298,7 +306,7 @@
                         <span uk-icon="star" style="color: white;"></span>
                     </div>
                     <!-- END Grid - item_3 item-1 -->
-                    
+
                     <!-- START Grid - item_3 item-2 -->
                     <div>
                         <p style="color: white; font-size: 25px; text-align: center;">
@@ -309,7 +317,7 @@
 
                     <!-- START Grid - item_3 item-3 -->
                     <div>
-                        <p><span uk-icon="minus"></span> Eric <span><a href="#">  Test</a></span></p>
+                        <p><span uk-icon="minus"></span> Eric <span><a href="#"> Test</a></span></p>
                     </div>
                     <!-- END Grid - item_3 item-3 -->
                 </div>
@@ -325,12 +333,102 @@
 
     <!-- START section-4 -->
     <div class="section uk-container" style="margin-top: 50px; margin-bottom: 50px;">
-    
-         <!-- START uk-container -->
-         <div class="uk-container uk-text-center">
-                <h2>Get In <span style="color: blue;">Touch</span></h2>
+
+        <!-- START uk-container -->
+        <div class="uk-container uk-text-center">
+            <h2 style="margin-bottom: 0px;">Get In <span style="color: blue;">Touch</span></h2>
+            <div>
+                <hr style="border-top: 4px solid #eee; width: 50px; display: inline-block; margin-right: 0px;">
+                <hr style="border-top: 4px solid blue; width: 50px; display: inline-block; margin-left: 0px;">
+            </div>
         </div>
         <!-- END uk-container -->
+
+        <!-- START uk-container Left -->
+        <div class="uk-container" style="display: inline-block; padding: 15px; background-color: #092e44;">
+
+            <!-- START uk-container -->
+            <div class="uk-container">
+                <h2 style="margin-bottom: 0px;"> <span style="color: white;">Get</span><span style="color: blue;">In Touch</span></h2>
+                <div>
+                    <hr style="border-top: 4px solid white; width: 50px; display: inline-block; margin-right: 0px;">
+                    <hr style="border-top: 4px solid blue; width: 50px; display: inline-block; margin-left: 0px;">
+                </div>
+            </div>
+            <!-- END uk-container -->
+
+            <p style="color: white;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+
+            <!-- START uk-container -->
+            <div class="uk-container">
+                <span uk-icon="phone" style="background-color: white; display: inline-block;"></span>
+                <h4 style="color: white; display: inline-block; margin-left: 15px;">Phone
+                    <span>
+                        <p style="color: white;">(561)-757-6587</p>
+                    </span></h4>
+
+            </div>
+            <!-- END uk-container -->
+
+            <!-- START uk-container -->
+            <div class="uk-container">
+                <span uk-icon="mail" style="background-color: white; display: inline-block;"></span>
+                <h4 style="color: white; display: inline-block; margin-left: 15px;">Email</h4>
+            </div>
+            <!-- END uk-container -->
+
+            <!-- START uk-container -->
+            <div class="uk-container">
+                <span uk-icon="location" style="background-color: white; display: inline-block;"></span>
+                <h4 style="color: white; display: inline-block; margin-left: 15px;">Address</h4>
+            </div>
+            <!-- END uk-container -->
+
+            <hr style="border-top: 2px solid white;">
+
+            <div class="uk-container uk-text-center" style="display: block;">
+                <span uk-icon="facebook" style="color: #092e44; background-color: white; display: inline-block;"></span>
+                <span uk-icon="twitter"
+                    style="color: #092e44; background-color: white; display: inline-block; margin-left: 25px;"></span>
+                <span uk-icon="instagram"
+                    style="color: #092e44; background-color: white; display: inline-block; margin-left: 25px;"></span>
+                <span uk-icon="youtube"
+                    style="color: #092e44; background-color: white; display: inline-block; margin-left: 25px;"></span>
+
+            </div>
+        </div>
+        <!-- END uk-container Left-->
+
+        <!-- START uk-container Right-->
+        <div class="uk-container" style="display: inline-block; padding: 15px; width: 410px;">
+
+            <!-- START uk-container -->
+            <div class="uk-container"> 
+           
+            <!-- START uk-container -->
+            <div class="uk-container">
+                <h2 style="margin-bottom: 0px;"> <span style="color: black;">Contact </span><span style="color: blue;">Us</span></h2>
+                <div>
+                    <hr style="border-top: 4px solid #eee; width: 50px; display: inline-block; margin-right: 0px;">
+                    <hr style="border-top: 4px solid blue; width: 50px; display: inline-block; margin-left: 0px;">
+                </div>
+            </div>
+            <!-- END uk-container -->
+
+            <form style="display: inline-block; padding: 15px;">
+                <input class="uk-input" type="text" placeholder="Name">
+                <input class="uk-input" type="text" placeholder="Phone Number">
+                <input class="uk-input" type="text" placeholder="Prefered call back time">
+                <input class="uk-input" type="text" placeholder="Message">
+
+                <button  style=" padding: 15px; width: 410px;">Send</button>
+            </form>
+
+            
+        </div>
+        </div>
+        <!-- END uk-container Right-->
 
     </div>
     <!-- END section-4 -->
