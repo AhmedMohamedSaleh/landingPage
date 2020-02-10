@@ -1,0 +1,39 @@
+@import 
+
+
+$a : red;
+
+h1{   
+    color: $a;
+}
+
+$primary-color: #272727;
+$accent-color:  #ff562f;
+$text-color: #fff;
+
+$font_weight : (
+    "regular" : 400,
+    "meduim" : 500,
+    "bold" : 1000
+);
+body{
+    background: $primary-color;
+    
+}
+
+.main {
+    
+    width: 80%;
+   
+    padding: 50px;
+    text-align: center;
+    #{&}_paragraph{
+        margin-right: 20px;
+        color: white;
+        word-break: break-all;
+        font-weight: map-get($map: $font_weight, $key: "regular");
+        &:hover{
+            color: red;
+        }
+    }
+}

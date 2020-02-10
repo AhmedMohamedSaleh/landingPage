@@ -1,0 +1,25 @@
+h1 {
+  color: red;
+}
+
+body {
+  background: #272727;
+}
+
+.main {
+  width: 80%;
+  padding: 50px;
+  text-align: center;
+}
+
+.main .main_paragraph {
+  margin-right: 20px;
+  color: white;
+  word-break: break-all;
+  font-weight: 400;
+}
+
+.main .main_paragraph:hover {
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */
