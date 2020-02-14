@@ -1,0 +1,20 @@
+.nav-background-color {
+  background-color: #092e44; }
+
+/*
+.main {
+    
+    width: 80%;
+   
+    padding: 50px;
+    text-align: center;
+    _paragraph{
+        margin-right: 20px;
+        color: white;
+        word-break: break-all;
+        font-weight: map-get($map: $font_weight, $key: "regular");
+        &:hover{
+            color: red;
+        }
+    }
+}*/

@@ -1,26 +1,7 @@
-@import 
+@import 'Blocks/blocks';
 
 
-$a : red;
-
-h1{   
-    color: $a;
-}
-
-$primary-color: #272727;
-$accent-color:  #ff562f;
-$text-color: #fff;
-
-$font_weight : (
-    "regular" : 400,
-    "meduim" : 500,
-    "bold" : 1000
-);
-body{
-    background: $primary-color;
-    
-}
-
+/*
 .main {
     
     width: 80%;
@@ -36,4 +17,4 @@ body{
             color: red;
         }
     }
-}
+}*/
