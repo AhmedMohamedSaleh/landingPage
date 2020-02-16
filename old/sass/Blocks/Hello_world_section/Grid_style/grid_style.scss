@@ -1,0 +1,13 @@
+
+// Grid_items
+@import 'Grid_items/grid_items.scss';
+
+.grid_margin{
+    
+    box-sizing: content-box;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}

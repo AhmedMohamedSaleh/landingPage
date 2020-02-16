@@ -1,0 +1,22 @@
+
+
+// Link_style
+@import 'link_style/link_style.scss';
+
+// Grid_style
+@import 'Grid_style/grid_style.scss';
+
+
+.background_style{
+background-size: 100%;  
+background-image: url(https://xvxlabs.com/preview/wp/roofingmasters/wp-content/uploads/2020/01/certainteed-asphalt-shingles-roofing-redding.jpg);
+
+.row{
+    background: rgba(5,56,90,0.9);
+    //background: rgba($color: #05385a, 0.01);
+    overflow: hidden;
+    z-index: 2;
+}
+  //background-color: #05385a;
+   
+}
