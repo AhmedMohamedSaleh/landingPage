@@ -1,6 +1,14 @@
 
+// Title
+@import 'Title/title.scss';
 
-.kk{
-    margin-top: 500px; 
+// Grid
+@import 'Grid/grid.scss';
+
+// Paragraph
+@import 'Paragraph/paragraph.scss';
+
+.section_margin{
+    margin-top: 50px; 
     margin-bottom: 50px;
 }

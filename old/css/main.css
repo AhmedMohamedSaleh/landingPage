@@ -37,9 +37,106 @@
     overflow: hidden;
     z-index: 2; }
 
-.kk {
-  margin-top: 500px;
+.title h2 {
+  margin-bottom: 0px; }
+  .title h2 span {
+    color: #12679b; }
+
+.underline_1 {
+  border-top: 4px solid #eee;
+  width: 50px;
+  display: inline-block;
+  margin-right: 0px; }
+
+.underline_2 {
+  border-top: 4px solid #12679b;
+  width: 50px;
+  display: inline-block;
+  margin-right: 0px; }
+
+.Why_Us_paragraph_outer {
+  width: 70%;
+  margin-top: 50px; }
+  .Why_Us_paragraph_outer .Why_Us_paragraph_inner {
+    padding-top: 0px;
+    padding-right: 0px;
+    margin-right: 40px; }
+    .Why_Us_paragraph_outer .Why_Us_paragraph_inner p {
+      font-size: large;
+      text-align: left;
+      color: #092e44;
+      margin-top: 0px; }
+  .Why_Us_paragraph_outer .Why_Us_paragraph_title {
+    text-align: left;
+    margin-top: 30px; }
+
+.paragraph_style {
+  margin-top: 100px; }
+  .paragraph_style h2 a {
+    color: #12679b; }
+
+.section_margin {
+  margin-top: 50px;
   margin-bottom: 50px; }
+
+.our_services_card_repair {
+  margin-left: 30px; }
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #eee; }
+
+/* The icon inside the overlay position */
+.fade_icon {
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center; }
+
+.our_services_card {
+  width: 350px;
+  display: inline-block; }
+
+.our_services_card_title p {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 15px;
+  color: black; }
+
+.our_services_card_body p {
+  font-size: 17px;
+  padding-left: 20px;
+  padding-right: 10px; }
+
+.img_border {
+  background-repeat: repeat;
+  position: relative; }
+
+.img_border::before {
+  border: 5px solid rgba(255, 255, 255, 0.2);
+  bottom: 14px;
+  content: "";
+  left: 14px;
+  position: absolute;
+  right: 14px;
+  top: 14px; }
+
+/* When you mouse over the container, fade in the overlay icon*/
+.img_border:hover .overlay {
+  opacity: 0.5;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; }
 
 /*
 .main {

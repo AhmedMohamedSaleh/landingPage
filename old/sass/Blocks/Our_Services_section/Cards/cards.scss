@@ -1,0 +1,55 @@
+
+// Card_Repair
+@import 'Card_Repair/Card_Repair.scss';
+
+// Card_Destroy
+@import 'Card_Destroy/card_destroy.scss';
+
+.our_services_card{
+    width: 350px; 
+    display: inline-block;
+}
+
+.our_services_card_title{
+    p{
+        font-size: 25px; 
+    text-align: center; 
+    margin-top: 15px; 
+    color: black;
+    }
+}
+
+.our_services_card_body{
+    p{
+        font-size: 17px; 
+        padding-left: 20px; 
+        padding-right: 10px;
+    }
+}
+
+.img_border{
+    background-repeat: repeat;
+    position: relative;
+}
+
+.img_border::before{
+    border: 5px solid hsla(0,0%,100%,.2);
+    bottom: 14px;
+    content: "";
+    left: 14px;
+    position: absolute;
+    right: 14px;
+    top: 14px;
+}
+  
+  /* When you mouse over the container, fade in the overlay icon*/
+  .img_border:hover .overlay {
+    opacity: 0.5;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+ 
+  

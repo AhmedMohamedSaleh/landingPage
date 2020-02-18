@@ -1,0 +1,24 @@
+
+ .overlay {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #eee;
+    
+  }
+
+   /* The icon inside the overlay position */
+   .fade_icon {
+   
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }

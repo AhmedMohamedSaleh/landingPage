@@ -1,0 +1,22 @@
+
+
+.Why_Us_paragraph_outer{
+    
+    width: 70%; 
+    margin-top: 50px;
+    .Why_Us_paragraph_inner{
+        padding-top: 0px; 
+        padding-right: 0px; 
+        margin-right: 40px;
+
+        p{
+            font-size: large; 
+            text-align: left; 
+            color: #092e44; 
+            margin-top: 0px;
+        }
+    }
+    .Why_Us_paragraph_title{
+        text-align: left; margin-top: 30px;
+    }
+}

@@ -79,7 +79,7 @@
                 <!-- START overlay_div (Grid)-->
                 <div>
                     <!-- START Grid -->
-                    <div class="grid_margin uk-child-width-1-4@m uk-text-center" uk-grid>
+                    <div class="grid_margin uk-child-width-1-4@m" uk-grid>
                         <!-- START overlay_div - Grid - item_1-->
                         <div>
                             <div class="uk-card uk-card-default uk-card-body grid_items_style">
@@ -130,38 +130,35 @@
     <!-- END Hello_world section -->
 
     <!-- START Why Us! section -->
-    <div class="section uk-container" style="margin-top: 50px; margin-bottom: 50px;">
+    <section class="uk-container section_margin">
 
-        <!-- START uk-container Main-->
+        <!-- START uk-container title-->
         <div class="uk-container">
 
             <!-- START uk-container -->
             <div class="uk-container">
-                <div class="uk-text-center">
-                    <h2 style="margin-bottom: 0px;">Why <span style="color: #12679b;">Us!</span></h2>
+                <div class="uk-text-center title">
+                    <h2>Why <span>Us!</span></h2>
                     <div>
-                        <hr style="border-top: 4px solid #eee; width: 50px; display: inline-block; margin-right: 0px;">
-                        <hr
-                            style="border-top: 4px solid #12679b; width: 50px; display: inline-block; margin-left: 0px;">
+                        <hr class="underline_1">
+                        <hr class="underline_2">
                     </div>
                 </div>
             </div>
             <!-- END uk-container -->
 
             <!-- START grid -->
-            <div class="uk-child-width-1-2 uk-text-center" uk-grid>
+            <div class="uk-child-width-1-2 " uk-grid>
                 <!-- START Grid - item_1-->
-                <div class="uk-container" style="width: 70%;">
-                    <div class="uk-card uk-card-default uk-card-body">
+                <div class="uk-container Why_Us_paragraph_outer">
+                    <div class="uk-card uk-card-default uk-card-body Why_Us_paragraph_inner">
 
-                        <div style="text-align: left; margin-top: 30px;">
-                            <hr
-                                style="border-top: 4px solid #eee; width: 50px; display: inline-block; margin-right: 0px;">
-                            <hr
-                                style="border-top: 4px solid #12679b; width: 50px; display: inline-block; margin-left: 0px;">
+                        <div class="Why_Us_paragraph_title">
+                            <hr class="underline_1">
+                            <hr class="underline_2">
                         </div>
 
-                        <p style="font-size: large; text-align: left; color: #092e44; margin-top: 0px;">Lorem ipsum
+                        <p>Lorem ipsum
                             dolor, sit amet consectetur
                             adipisicing elit. Perspiciatis rem, odit quas dolorem delectus nam modi accusantium
                             impedit iste sunt, laboriosam repellendus iusto. Est veniam nostrum praesentium, ab id
@@ -183,22 +180,28 @@
         <!-- END uk-container Main-->
 
         <!-- START uk-container -->
-        <div class="uk-container" style="margin-top: 100px;">
-            <div class="uk-text-center">
+        <div class="uk-container">
+            <div class="uk-text-center paragraph_style">
                 <h2>Palm Beach Best Roof Repair Service | Call us on
-                    <a href="" style="color: #12679b;">(561)-757-6587</a>
+                    <a>(561)-757-6587</a>
                 </h2>
             </div>
         </div>
         <!-- END uk-container -->
 
+    </section>
+    <!-- END Why Us! section -->
+
+    <!-- START Our Services section -->
+    <section class="uk-container section_margin">
+
         <!-- START uk-container -->
-        <div class="uk-container" style="margin-top: 100px;">
-            <div class="uk-text-center">
-                <h2 style="margin-bottom: 0px;">Our <span style="color: #12679b; ">Services</span></h2>
+        <div class="uk-container">
+            <div class="uk-text-center title">
+                <h2>Our <span>Services</span></h2>
                 <div>
-                    <hr style="border-top: 4px solid #eee; width: 50px; display: inline-block; margin-right: 0px;">
-                    <hr style="border-top: 4px solid #12679b; width: 50px; display: inline-block; margin-left: 0px;">
+                    <hr class="underline_1">
+                    <hr class="underline_2">
                 </div>
             </div>
         </div>
@@ -208,43 +211,61 @@
         <div class="uk-container">
 
             <!-- START uk-container card-1 -->
-            <div class="uk-container " style="width: fit-content; width: 350px; display: inline-block;">
+            <div class="uk-container our_services_card">
                 <div>
-                    <img style=" background-repeat: no-repeat; height: 280px; width: 360px;"
-                        src="https://xvxlabs.com/preview/wp/roofingmasters/wp-content/uploads/2020/01/img1.png" />
+                    <!-- START img_border -->
+                    <div class="img_border">
+                        <img src="https://xvxlabs.com/preview/wp/roofingmasters/wp-content/uploads/2020/01/img1.png" />
+                    </div>
+                    <!-- END img_border -->
 
+                    <!-- START Card -->
+                    <div>
+                        <div class="uk-text-center our_services_card_title">
+                            <p>Repair</p>
+                        </div>
+                        <div class="our_services_card_body">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <!-- END Card -->
                 </div>
-                <div class="uk-text-center">
-                    <p style="font-size: 25px; text-align: center; margin-top: 15px; color: black;">Repair</p>
-                </div>
-                <p style="font-size: 17px; padding-left: 20px; padding-right: 10px;">Lorem ipsum dolor, sit amet
-                    consectetur adipisicing elit.</p>
-
             </div>
             <!-- END uk-container card-1 -->
 
             <!-- START uk-container card-2 -->
-            <div class="uk-container "
-                style="width: fit-content; width: 350px; display: inline-block; margin-left: 35px;">
+            <div class="uk-container our_services_card our_services_card_repair">
+
+                <!-- START img_border -->
+                <div class="img_border">
+                    <img src="https://xvxlabs.com/preview/wp/roofingmasters/wp-content/uploads/2020/01/img1.png"
+                        alt="Avatar" class="image">
+
+                    <div class="overlay">
+                        <span uk-icon="search" class="fade_icon"
+                            style="color: #092e44; background-color: white; display: inline-block;"></span>
+                    </div>
+                </div>
+                <!-- END img_border -->
+
+                <!-- START CARD -->
                 <div>
-                    <img style=" background-repeat: no-repeat; height: 280px; width: 360px;"
-                        src="https://xvxlabs.com/preview/wp/roofingmasters/wp-content/uploads/2020/01/img1.png" />
-
+                    <div class="uk-text-center our_services_card_title">
+                        <p>Destroy</p>
+                    </div>
+                    <div class="our_services_card_body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
                 </div>
-                <div class="uk-text-center">
-                    <p style="font-size: 25px; text-align: center; margin-top: 15px; color: black;">Destory</p>
-                </div>
-                <p style="font-size: 17px; padding-left: 20px; padding-right: 10px;">Lorem ipsum dolor, sit amet
-                    consectetur adipisicing elit.</p>
-
+                <!-- END CARD -->
             </div>
             <!-- END uk-container card-2 -->
 
         </div>
         <!-- END uk-container Main-->
 
-    </div>
-    <!-- END Why Us! section -->
+    </section>
+    <!-- END Our Services section -->
 
 
     <!-- START section-3 -->
