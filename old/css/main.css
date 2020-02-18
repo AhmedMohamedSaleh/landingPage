@@ -75,7 +75,7 @@
   .paragraph_style h2 a {
     color: #12679b; }
 
-.section_margin {
+.why_us_section_margin {
   margin-top: 50px;
   margin-bottom: 50px; }
 
@@ -137,6 +137,35 @@
   right: 0;
   top: 0;
   bottom: 0; }
+
+.our_services_section_margin {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.our_testimonials_title {
+  margin-bottom: 40px;
+  margin-top: 40px; }
+  .our_testimonials_title h2 {
+    color: white;
+    margin-bottom: 0px; }
+
+.our_testimonials_paragraph {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 0px; }
+
+.stars_block {
+  margin-bottom: 10px; }
+  .stars_block span {
+    color: white;
+    font-size: 150%; }
+
+.our_testimonials_section_margin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #092e44;
+  padding-bottom: 50px; }
 
 /*
 .main {
