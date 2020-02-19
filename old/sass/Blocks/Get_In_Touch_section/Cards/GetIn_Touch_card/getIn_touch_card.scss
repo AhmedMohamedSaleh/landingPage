@@ -1,0 +1,23 @@
+
+
+// Title
+@import 'Title/title.scss';
+
+// Paragraph
+@import 'Paragraph/paragraph.scss';
+
+// Contact_info
+@import 'Contact_info/contact_info.scss';
+
+// Icons
+@import 'Icons/icons.scss';
+
+.getIn_touch_card_style{
+    margin-top: 0px;
+    display: inline-block; 
+    padding: 15px;
+    padding-right: 50px; 
+    background-color: #092e44;
+    width: 50%;
+    height: fit-content;
+}

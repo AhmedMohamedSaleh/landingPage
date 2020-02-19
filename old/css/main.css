@@ -14,7 +14,7 @@
 
 .grid_items_style {
   background-color: rgba(0, 0, 0, 0.45); }
-  .grid_items_style .title {
+  .grid_items_style .grid_items_title {
     font-size: xx-large;
     color: yellow; }
   .grid_items_style .description {
@@ -37,18 +37,22 @@
     overflow: hidden;
     z-index: 2; }
 
-.title h2 {
-  margin-bottom: 0px; }
-  .title h2 span {
-    color: #12679b; }
+.why_us_title {
+  margin-bottom: 50px; }
+  .why_us_title h2 {
+    margin-bottom: 0px; }
+    .why_us_title h2 span {
+      color: #12679b; }
 
 .underline_1 {
+  margin-bottom: 0px;
   border-top: 4px solid #eee;
   width: 50px;
   display: inline-block;
   margin-right: 0px; }
 
 .underline_2 {
+  margin-bottom: 0px;
   border-top: 4px solid #12679b;
   width: 50px;
   display: inline-block;
@@ -138,6 +142,13 @@
   top: 0;
   bottom: 0; }
 
+.our_services_title {
+  margin-bottom: 50px; }
+  .our_services_title h2 {
+    margin-bottom: 0px; }
+    .our_services_title h2 span {
+      color: #12679b; }
+
 .our_services_section_margin {
   margin-top: 50px;
   margin-bottom: 50px; }
@@ -166,6 +177,91 @@
   margin-bottom: 50px;
   background-color: #092e44;
   padding-bottom: 50px; }
+
+.get_in_touch_title {
+  margin-bottom: 50px; }
+  .get_in_touch_title h2 {
+    margin-bottom: 0px; }
+    .get_in_touch_title h2 span {
+      color: #12679b; }
+
+.getIn_touch_title {
+  display: block; }
+  .getIn_touch_title h2 {
+    color: white;
+    margin-bottom: 0px; }
+    .getIn_touch_title h2 span {
+      color: #12679b; }
+
+.getIn_touch_card_style {
+  color: white;
+  margin-top: 0px;
+  font-size: 20px; }
+
+.Contact_info {
+  display: block; }
+  .Contact_info span {
+    display: inline-block;
+    color: white;
+    margin-bottom: 0px; }
+  .Contact_info h4 {
+    display: inline-block;
+    color: white;
+    margin-left: 15px;
+    margin-top: 20px; }
+    .Contact_info h4 span p {
+      margin-top: 0px;
+      margin-bottom: 0px; }
+
+.getIn_touch_icons span {
+  color: #092e44;
+  background-color: white;
+  display: inline-block;
+  margin-left: 25px; }
+
+.getIn_touch_card_style {
+  margin-top: 0px;
+  display: inline-block;
+  padding: 15px;
+  padding-right: 50px;
+  background-color: #092e44;
+  width: 50%;
+  height: fit-content; }
+
+.contact_us_card_title {
+  display: block; }
+  .contact_us_card_title h2 {
+    margin-bottom: 0px; }
+    .contact_us_card_title h2 span {
+      color: #12679b; }
+
+.contact_us_card_style {
+  padding-left: 40px; }
+  .contact_us_card_style form {
+    padding: 15px;
+    padding-top: 0px; }
+    .contact_us_card_style form .input_style {
+      width: 100%;
+      border-radius: 0;
+      font-size: 13px;
+      border: 0px;
+      border-bottom: 2px solid #f5f5f5;
+      margin-top: 20px; }
+    .contact_us_card_style form .textarea_style {
+      height: 100px; }
+    .contact_us_card_style form .button_style {
+      background-color: white;
+      padding: 15px;
+      width: 100%;
+      border: 0px;
+      border-bottom: 2px solid #f5f5f5; }
+
+.get_in_touch_section_margin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+  padding-left: 10%;
+  padding-right: 10%; }
 
 /*
 .main {
