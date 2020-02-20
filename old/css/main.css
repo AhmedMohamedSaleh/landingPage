@@ -263,6 +263,48 @@
   padding-left: 10%;
   padding-right: 10%; }
 
+.repair_service_title {
+  margin-bottom: 50px; }
+  .repair_service_title h2 {
+    margin-bottom: 0px;
+    color: black; }
+    .repair_service_title h2 span {
+      color: #12679b; }
+
+.grid_paragraph_style_outer {
+  margin-top: 0px;
+  display: inline-block;
+  padding: 15px;
+  padding-right: 30px; }
+
+.grid_paragraph_style_inner {
+  display: block; }
+  .grid_paragraph_style_inner p {
+    color: black; }
+
+.grid_images__grid_style {
+  margin-left: 0px;
+  display: flex; }
+
+.grid_images__grid_items_style {
+  margin-right: 20px; }
+
+.grid_images__grid_top_item_style img {
+  margin-bottom: 20px; }
+
+.grid_images_style_outer {
+  display: inline-block;
+  padding: 15px;
+  padding-top: 0px; }
+
+.repair_service_grid_style {
+  margin-left: 0px; }
+
+.repair_service_section_margin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block; }
+
 /*
 .main {
     
