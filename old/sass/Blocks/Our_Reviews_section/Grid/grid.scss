@@ -1,0 +1,28 @@
+
+// Google_Card
+@import 'Google_Card/google_card.scss';
+
+.our_reviews_grid_items_icon{
+    display: inline-block;
+    img{
+        width: 60px ;
+        height: 60px;
+    }
+}
+
+.our_reviews_grid_items_stars{
+    color: yellow; 
+    font-size: 150%;
+    margin-left: 0px;
+}
+
+.our_reviews_grid_items_title{
+    display: inline-block;
+    h3{
+        margin-bottom: 0px; 
+        text-align: left;
+        a{
+            color: white;
+        }
+    }
+}

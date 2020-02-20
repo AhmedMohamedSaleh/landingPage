@@ -1,0 +1,23 @@
+// Title
+@import 'Title/title.scss';
+
+// Grid
+@import 'Grid/grid.scss';
+
+// Paragraph
+@import 'Paragraph/paragraph.scss';
+
+// Cities_We_Serve_section
+@import 'Cities_We_Serve_section/cities_we_serve_section.scss';
+
+// Footer
+@import 'Footer/footer.scss';
+
+.our_reviews_section_margin{
+   
+    padding-top: 50px;
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    background-color: #092e44; 
+    display: block;
+}
