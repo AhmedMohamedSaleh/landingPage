@@ -1,0 +1,33 @@
+.general_sections_margin{
+
+    display: block;
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+}
+
+.general_section_title_margin{
+    margin-bottom: 50px;
+    h2{
+        margin-bottom: 0px;
+        span{
+            color: #12679b;
+        }
+    }
+}
+
+.general_hr_style_underline_left{
+
+    margin-bottom: 0px;        
+    width: 50px; 
+    margin-right: 0px;
+    display: inline-block; 
+    border-top: 4px solid #eee;
+}
+.general_hr_style_underline_right{
+
+    margin-bottom: 0px;        
+    width: 50px; 
+    margin-right: 0px;
+    display: inline-block; 
+    border-top: 4px solid #12679b;
+}
