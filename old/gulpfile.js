@@ -1,4 +1,5 @@
 
+
 // define gulp
 const gulp = require('gulp');
 
@@ -34,6 +35,8 @@ gulp.task('minify_html', () => {
 
 gulp.task('watch', () => {
     gulp.watch('./sass/**/*.scss', gulp.series('sass_and_minify_css'));
+   
+    
 });
 
-gulp.task('default', gulp.series('sass_and_minify_css','minify_html', 'watch'));
+gulp.task('default', gulp.series('sass_and_minify_css','minify_html' , 'watch' ));

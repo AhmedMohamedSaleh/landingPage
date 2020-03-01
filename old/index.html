@@ -9,6 +9,8 @@
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="./css/main.css" />
+
+    <script src="scripts/init_divs.js"></script>
 </head>
 
 <body>
@@ -53,7 +55,7 @@
     <!-- END NAVbar container -->
 
     <!-- START Hello_world section -->
-    <section class="uk-light background_style">
+    <section class="background_style">
 
         <!-- START overlay -->
         <div class="uk-position uk-text-center row">
@@ -61,7 +63,7 @@
             <div class="uk-container">
 
                 <!-- START title -->
-                <div class="uk-container uk-margin-top ">
+                <div class="uk-container uk-margin-top hello_world_paragraph">
                     <h1>HelloWorld xs</h1>
                     <h4>Build Masters, Lc (CGC 1505687) is a full service general contractor where one call does it all,
                         servicing South East Florida region .<br> Our services include: Restoration and new
@@ -71,10 +73,9 @@
                 <!-- END title-->
 
                 <!-- START (link)-->
-                <div class="link_style ">
-                <a class="uk-button"> (561)-757-6587 </a>
-            </div>
-                <!-- END  (link)-->
+ 
+                    <a class="link_style uk-button " > (561)-757-6587 </a>
+                 <!-- END  (link)-->
 
                 <!-- START overlay_div (Grid)-->
                 <div>
@@ -286,27 +287,31 @@
 
                 <!-- START uk-container -->
                 <div class="uk-container">
-
-                    <!-- START stars_block -->
+                     <!-- START uk-container stars_block-->
                     <div class="uk-container stars_block">
-                        <span>&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;</span>
+
+                        <!-- START stars_block -->
+                        <div class="uk-container ">
+                            <span>&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;</span>
+                        </div>
+                        <!-- END stars_block -->
+
+                        <!-- START uk_container -->
+                        <div class="uk_container">
+
+                            <!-- START our_testimonials_paragraph -->
+                            <p class="our_testimonials_paragraph">
+                                <span uk-icon="quote-right"></span>
+                                The best company<br>you could deal with<br>when it comes down t...
+                            </p>
+                            <!-- END our_testimonials_paragraph -->
+
+                        </div>
+                        <!-- END uk_container -->
                     </div>
-                    <!-- END stars_block -->
+                    <!-- END uk-container stars_block-->
 
-                    <!-- START uk_container -->
-                    <div class="uk_container">
-
-                        <!-- START our_testimonials_paragraph -->
-                        <p class="our_testimonials_paragraph">
-                            <span uk-icon="quote-right"></span>
-                            The best company<br>you could deal with<br>when it comes down t...
-                        </p>
-                        <!-- END our_testimonials_paragraph -->
-
-                        <p><span uk-icon="minus"></span> bola <span><a href="#"> Google</a></span></p>
-
-                    </div>
-                    <!-- END uk_container -->
+                    <p><span uk-icon="minus"></span> bola <span><a href="#"> Google</a></span></p>
 
                 </div>
                 <!-- END uk-container -->
@@ -314,26 +319,8 @@
                 <!-- START uk-container -->
                 <div class="uk-container">
 
-                    <!-- START stars_block -->
-                    <div class="uk-container stars_block">
-                        <span>&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;</span>
-                    </div>
-                    <!-- END stars_block -->
-
-                    <!-- START uk_container -->
-                    <div class="uk_container">
-
-                        <!-- START our_testimonials_paragraph -->
-                        <p class="our_testimonials_paragraph">
-                            <span uk-icon="quote-right"></span>
-                            The best company<br>you could deal with<br>when it comes down t...
-                        </p>
-                        <!-- END our_testimonials_paragraph -->
-
-                        <p><span uk-icon="minus"></span> Rowis <span><a href="#"> youtube</a></span></p>
-
-                    </div>
-                    <!-- END uk_container -->
+                    <div class="stars_block_redunant"></div>
+                    <p><span uk-icon="minus"></span> Rowis <span><a href="#"> youtube</a></span></p>
 
                 </div>
                 <!-- END uk-container -->
@@ -341,27 +328,9 @@
                 <!-- START uk-container -->
                 <div class="uk-container">
 
-                    <!-- START stars_block -->
-                    <div class="uk-container stars_block">
-                        <span>&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;</span>
-                    </div>
-                    <!-- END stars_block -->
-
-                    <!-- START uk_container -->
-                    <div class="uk_container">
-
-                        <!-- START our_testimonials_paragraph -->
-                        <p class="our_testimonials_paragraph">
-                            <span uk-icon="quote-right"></span>
-                            The best company<br>you could deal with<br>when it comes down t...
-                        </p>
-                        <!-- END our_testimonials_paragraph -->
-
-                        <p><span uk-icon="minus"></span> Eric <span><a href="#"> test</a></span></p>
-
-                    </div>
-                    <!-- END uk_container -->
-
+                    <div class="stars_block_redunant"></div>
+                    <p><span uk-icon="minus"></span> Eric <span><a href="#"> test</a></span></p>
+                    
                 </div>
                 <!-- END uk-container -->
 
@@ -695,16 +664,22 @@
                 <h3 class="cities_we_serve_title"> Cities we serve </h3>
                 <hr>
                 <ul class="cities_we_serve_ul">
-                    <li><h4 class="cities_we_serve_items"><a>Home</a></h4></li>
-                    <li><h4 class="cities_we_serve_items"><a>Sample Page</a></h4></li>
-                    <li><h4 class="cities_we_serve_items"><a>Boca Raton</a></h4></li>
+                    <li>
+                        <h4 class="cities_we_serve_items"><a>Home</a></h4>
+                    </li>
+                    <li>
+                        <h4 class="cities_we_serve_items"><a>Sample Page</a></h4>
+                    </li>
+                    <li>
+                        <h4 class="cities_we_serve_items"><a>Boca Raton</a></h4>
+                    </li>
                     <br><br>
                 </ul>
                 <hr>
             </div>
             <!-- END uk-container cities_we_serve_title -->
 
-            
+
         </section>
         <!-- END Cities we serve section -->
 
